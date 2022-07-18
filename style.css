@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.title {
+    display: contents;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#019642;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #019642;
+    text-decoration: none;
+}
+
+.login{
+    padding: 15px 0;
+    color: #019642;
+    overflow: hidden;
+    font-family: sans-serif;
+    text-decoration: none;
+    background:white;
+    border:black;
+}
+
+.login:hover{
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.login_page {
+
+}
+
+.title-uppage {
+    margin-left: 60%;
+    list-style-type: none;
+}
+
+.background-verde {
+    font-family: sans-serif;
+    flex-direction: column;
+    color: white;
+    width: 280vh;
+    display: flex;
+    background-color: #019642;
+}
+
+.title-verde {
+    margin-top: 5vh;
+    list-style-type: none;
+    font-size: 28px;
+}
+
+.paragrafo {
+    text-indent: 1.5em;
+    margin-top: 0;
+}
+
+.botao-averde {
+    margin-top: 30%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: sans-serif;
+    list-style-type: none;
+    border-color: black;
+    font-weight: bold;
+}
